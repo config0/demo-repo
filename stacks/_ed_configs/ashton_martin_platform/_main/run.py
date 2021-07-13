@@ -14,7 +14,7 @@ def run(stackargs):
     stack.add_shelloutconfig('williaumwu:::demo-repo::show_configuration')
 
     # Add hostgroups
-    stack.add_execgroup("bill12252016:::formula1::redwheels", "wheels")
+    stack.add_execgroup("bill12252016:::formula1::red_wheels", "wheels")
     stack.add_execgroup("bill12252016:::formula1::ashton_martin_core", "core")
 
     # init the stack namespace
