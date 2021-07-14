@@ -14,7 +14,7 @@ def run(stackargs):
     stack.add_shelloutconfig('williaumwu:::demo-repo::show_configuration')
 
     # Add hostgroups
-    stack.add_execgroup("bill12252016:::formula1::mclaren_controls", "controls")
+    stack.add_execgroup("bill12252016:::formula1::lotus_controls", "controls")
 
     # Add stack
     stack.add_substack("bill12252016:::ashton_martin_platform")
