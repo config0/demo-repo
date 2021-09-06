@@ -35,13 +35,13 @@ def run(stackargs):
                  "overide_values":overide_values}
 
     inputargs["human_description"] = 'Executing substack "{}"'.format(stack.almond_croissants.name)
-    stack.almond_croissants.insert(display=True,**inputargs)
+    stack.vegan_muffin.insert(display=True,**inputargs)
 
     # Add presentation 
     inputargs = {"display":True}
     inputargs["env_vars"] = json.dumps({"COOKING_DIR":stack.group_dest_dir})
     inputargs["group_dest_dir"] = stack.group_dest_dir
-    inputargs["human_description"] = "Creating platform with presentation {}".format(stack.presentation.name)
+    inputargs["human_description"] = "Creating with presentation {}".format(stack.presentation.name)
     stack.presentation.insert(**inputargs)
 
     # if this is the parent or top level of the entry point, then we print out
