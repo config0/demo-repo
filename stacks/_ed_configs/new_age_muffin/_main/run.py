@@ -11,7 +11,7 @@ def run(stackargs):
     stack.parse.add_optional(key="entry_point",default="null")
 
     # Add shelloutconfigs
-    stack.add_shelloutconfig('bill12252016:::demo-repo::show_configuration')
+    stack.add_shelloutconfig('williaumwu:::demo-repo::show_configuration')
 
     # Add hostgroups
     stack.add_execgroup("bill12252016:::demo-repo::presentation", "presentation")
