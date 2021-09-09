@@ -34,7 +34,7 @@ def run(stackargs):
     inputargs = {"default_values":default_values,
                  "overide_values":overide_values}
 
-    inputargs["human_description"] = 'Executing substack "{}"'.format(stack.almond_croissants.name)
+    inputargs["human_description"] = 'Executing substack "{}"'.format(stack.vegan_muffin.name)
     stack.vegan_muffin.insert(display=True,**inputargs)
 
     # Add presentation 
